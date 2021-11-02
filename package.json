@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/MarvelSQ/template#readme",
   "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "cz-conventional-changelog": "^3.3.0",
