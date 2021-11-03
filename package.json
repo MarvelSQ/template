@@ -8,6 +8,7 @@
     "lint:prettier": "prettier 'src/**/*.{js,ts,tsx}' --check --ignore-unknown",
     "lint:eslint": "eslint .",
     "lint": "npm run lint:prettier && npm run lint:eslint",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "prepare": "husky install"
   },
   "repository": {
@@ -44,5 +45,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "conventional-changelog-cli": "^2.1.1"
   }
 }
