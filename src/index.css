@@ -1,0 +1,8 @@
+:root {
+  --theme-color: #2196f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+  color: var(--theme-color);
+}
